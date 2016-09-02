@@ -1,18 +1,13 @@
-
 .c1{
     background-color:rgba(0,0,0,0.05);
     position: fixed;
     width:1366px
 }
-.c2{
-  background-color:rgba(0,0,0,0.05);
-  position: fixed;
-}
-.c2 li a{
-  float:left;
-  
 
+.c1 li a{
+  float:left;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -24,7 +19,6 @@ ul {
 
 li {
     float: left;
-
 }
 
 li a {
@@ -54,14 +48,7 @@ input[type=text]:focus {
     width: 100%;
 }
 
-.div3{
-  background-color: rgb(18,19,16);
-  height: 300px;
-  width:1366px;
-}
-#d2 >.div4{
-  font-size: 100px;
-  font-family: cursive;
-  color: rgb(134,252,47);
-  margin-bottom:10px;
+p{
+  margin-left: 100px;
+  margin-bottom: 100px
 }
