@@ -1,10 +1,17 @@
-body{
-  background-color:black;
-}
+
 .c1{
     background-color:rgba(0,0,0,0.05);
     position: fixed;
-    width:"100%"
+    width:1366px
+}
+.c2{
+  background-color:rgba(0,0,0,0.05);
+  position: fixed;
+}
+.c2 li a{
+  float:left;
+  
+
 }
 ul {
     list-style-type: none;
@@ -12,6 +19,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color:rgba(0,0,0,0.05);
+    width: 1366px;
   }
 
 li {
@@ -38,6 +46,7 @@ li a:hover {
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+
 }
 
 /* When the input field gets focus, change its width to 100% */
@@ -46,6 +55,13 @@ input[type=text]:focus {
 }
 
 .div3{
-  background-color: rgb(119,119,119);
-  height: 100px;
+  background-color: rgb(18,19,16);
+  height: 300px;
+  width:1366px;
+}
+#d2 >.div4{
+  font-size: 100px;
+  font-family: cursive;
+  color: rgb(134,252,47);
+  margin-bottom:10px;
 }
