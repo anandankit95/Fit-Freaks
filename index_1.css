@@ -1,0 +1,51 @@
+body{
+  background-color:black;
+}
+.c1{
+    background-color:rgba(0,0,0,0.05);
+    position: fixed;
+    width:"100%"
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.05);
+  }
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color:rgb(134,252,47);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:"Courier New";
+    font-size: 25px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+.div3{
+  background-color: rgb(119,119,119);
+  height: 100px;
+}
