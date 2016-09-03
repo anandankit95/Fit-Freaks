@@ -71,8 +71,25 @@ input[type=text]:focus
   {
   background-color:black;
   height:100px;
+  width:1500px;
   font-style: italic;
   font-size: 60px;
   font-weight: bolder;
   color: green;
   }
+
+  #logo
+  {
+    position:absolute;
+    left:200px;
+    top:380px;
+  }
+
+  #scrollbutton 
+  {
+    position: absolute;
+   left:310px;
+   top:500px;
+
+  }
+
