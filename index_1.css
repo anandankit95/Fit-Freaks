@@ -1,14 +1,17 @@
-.c1{
+.c1
+  {
     background-color:rgba(0,0,0,0.05);
     position: fixed;
     width:1366px
-}
+  }
 
-.c1 li a{
+.c1 li a
+  {
   float:left;
-}
+  }
 
-ul {
+ul
+  {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,38 +20,59 @@ ul {
     width: 1366px;
   }
 
-li {
+li
+  {
     float: left;
-}
+  }
 
-li a {
+li a
+  {
     display: block;
-    color:rgb(134,252,47);
+    color:white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family:"Courier New";
     font-size: 25px;
-}
+  }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+li a:hover
+  {
     background-color: #111;
-}
+    text-decoration: underline;
+    text-decoration-color: green;
+    color: green;
+  }
 
-.input[type=text] {
+.input[type=text]
+  {
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 
-}
+  }
 
 /* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
+input[type=text]:focus
+  {
     width: 100%;
-}
+  }
 
-p{
-  margin-left: 100px;
-  margin-bottom: 100px
-}
+.d4
+  {
+  background-color:rgb(18,19,16);
+  height: 300px;
+  width:1366px;
+  top:0px;
+
+  }
+.c2
+  {
+  background-color:black;
+  height:100px;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: bolder;
+  color: green;
+  }
