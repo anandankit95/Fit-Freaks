@@ -61,35 +61,73 @@ input[type=text]:focus
 
 .d4
   {
-  background-color:rgb(18,19,16);
+  background-color:rgb(18,19,16)
+  ;
   height: 300px;
   width:1366px;
   top:0px;
 
   }
-.c2
+
+#c2
   {
   background-color:black;
   height:100px;
-  width:1500px;
-  font-style: italic;
-  font-size: 60px;
+  width:1366px;
+  font-family:PT Serif italic;
+  font-size: 45px;
   font-weight: bolder;
-  color: green;
+  color: white;
+  text-align: center;
   }
+
 
   #logo
   {
+    height: 150px;
+    width:  200px;
     position:absolute;
-    left:200px;
+    left:250px;
     top:380px;
+    height:120px;
+    width:180px;
+    
   }
 
   #scrollbutton 
   {
-    position: absolute;
-   left:310px;
-   top:500px;
+      height:100px; 
+      width:100px;
+      position: absolute;
+      left:310px;
+      top:630px;
+      transition: transform 1s;
+
+  
+  }
+  .scroll 
+{
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.scroll:hover 
+{
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+ 
+  #scrollbutton hover
+  {
+    transform: translate(20px, 20px);
 
   }
+
+
 
