@@ -63,8 +63,7 @@ input[type=text]:focus
 
 .d4
   {
-  background-color:rgb(18,19,16)
-  ;
+  background-color:rgb(18,19,16);
   height: 300px;
   width:1366px;
   top:0px;
@@ -150,11 +149,162 @@ input[type=text]:focus
 
   }
 #c3{
-  background-color: white;
+  background-color:rgb(119,119,119);
   height:200px;
   width:1366px;
-  font-size: 90px;
+  font-size: 20px;
   font-style: oblique;
   font-family: sans-serif;
-  color: rgb(119,119,119);
+  color:black ;
+}
+
+
+#c6{
+  position: absolute;
+  top:900px;
+  left:600px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+.cube {
+	margin: 30px auto;
+	position: absolute;
+	width: 300px;
+	height: 100px;
+  left:50px;
+  top:500;
+	font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px #383737;
+	color: #FFF;
+	text-align:center;
+}
+.cube h1 {
+    font-size: 30px;
+	font-weight: bold;
+	line-height:98px;
+    margin:0;
+    padding:0;
+}
+.cube h2 {
+	font-size: 21px;
+	font-weight: bold;
+	margin: 0;
+	padding: 16px 0 2px;
+}
+.cube p {
+	font-size: 13px;
+	padding: 5px 10px;
+	margin: 0;
+}
+.default-state, .active-state {
+	height: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: transform 0.4s ease;
+	transform-origin: center center -50px;
+	-webkit-transform-origin: center center -50px;
+	width: 100%;
+}
+.default-state {
+	background-color: #03a9f4;
+	transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+.active-state {
+	background: #1976d2;
+	transform: perspective(1000px) rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+}
+.cube:hover .default-state {
+	transform: perspective(1000px) rotateX(90deg) rotateY(0) rotateZ(0deg);
+}
+.cube:hover .active-state {
+	z-index: 99999;
+	transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0);
+}
+
+
+
+
+.cube1 {
+	margin: 30px auto;
+	position: absolute;
+	width: 300px;
+	height: 100px;
+  left:500px;
+  top:500;
+	font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px #383737;
+	color: #FFF;
+	text-align:center;
+}
+.cube1 h1 {
+    font-size: 30px;
+	font-weight: bold;
+	line-height:98px;
+    margin:0;
+    padding:0;
+}
+.cube1 h2 {
+	font-size: 21px;
+	font-weight: bold;
+	margin: 0;
+	padding: 16px 0 2px;
+}
+.cube1 p {
+	font-size: 13px;
+	padding: 5px 10px;
+	margin: 0;
+}
+.cube1:hover .default-state {
+	transform: perspective(1000px) rotateX(90deg) rotateY(0) rotateZ(0deg);
+}
+.cube1:hover .active-state {
+	z-index: 99999;
+	transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0);
+}
+.cube2 {
+	margin: 30px auto;
+	position: absolute;
+	width: 300px;
+	height: 200px;
+  left:950px;
+  top:500;
+	font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px #383737;
+	color: #FFF;
+	text-align:center;
+}
+.cube2 h1 {
+    font-size: 30px;
+	font-weight: bold;
+	line-height:98px;
+    margin:0;
+    padding:0;
+}
+.cube2 h2 {
+	font-size: 21px;
+	font-weight: bold;
+	margin: 0;
+	padding: 16px 0 2px;
+}
+.cube2 p {
+	font-size: 13px;
+	padding: 5px 10px;
+	margin: 0;
+}
+.cube2:hover .default-state {
+	transform: perspective(1000px) rotateX(90deg) rotateY(0) rotateZ(0deg);
+}
+.cube2:hover .active-state {
+	z-index: 99999;
+	transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0);
+}
+.end{
+  top:1200px;
+  left:400px;
+  position: absolute;
+  color:white;
+  font-size: 40px;
+  background-color: green;
+  text-decoration: none;
 }
